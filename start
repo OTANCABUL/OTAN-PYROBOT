@@ -1,0 +1,20 @@
+#!/bin/bash
+# Credits: @mrismanaziz
+# Copyright (C) 2022 Pyro-ManUserbot
+#
+# This file is a part of < https://github.com/mrismanaziz/PyroMan-Userbot/ >
+# PLease read the GNU Affero General Public License in
+# <https://www.github.com/mrismanaziz/PyroMan-Userbot/blob/main/LICENSE/>.
+#
+# t.me/SharingUserbot & t.me/Lunatic0de
+
+_starter () {
+    echo "Downloading source code"
+    git clone https://github.com/OTANCABUL/PyroMan-Userbot
+    cd PyroTan-Userbot/ && rm -rf .git
+    python3 ../updater.py ../requirements.txt requirements.txt
+    echo "PyroTan-Userbot v0.2.0, Copyright © 2022 (OTANCABUL) <https://github.com/OTANCABUL>"
+    python3 -m otancabul
+}
+
+_starter
