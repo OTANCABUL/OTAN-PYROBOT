@@ -14,7 +14,7 @@ _starter () {
     cd OTAN-PYROBOT/ && rm -rf .git
     python3 ../updater.py ../requirements.txt requirements.txt
     echo "OTAN-PYROBOT v0.2.0, Copyright © 2022 (OTANCABUL) <https://github.com/OTANCABUL>"
-    python3 -m PunyaAlby
+    python3 -m otanproject
 }
 
 _starter
