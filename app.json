@@ -1,6 +1,7 @@
 {
   "name": "PYROTAN-USERBOT",
   "description": "[PYROTAN-USERBOT] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.",
+  "logo": "https://telegra.ph/file/cb50f55170f533394b447.jpg",
   "stack": "heroku-22",
   "env": {
     "API_ID": {
