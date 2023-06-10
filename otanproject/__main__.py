@@ -21,9 +21,9 @@ async def main():
         try:
             await bot.start()
             bot.me = await bot.get_me()
-            await bot.join_chat("gbtnyaOtan") 
             await bot.join_chat("cemarayeah")
             await bot.join_chat("cemarasupport")
+            await bot.join_chat("uputtsupport")
             try:
                 await bot.send_message(
                     BOTLOG_CHATID, MSG_ON.format(BOT_VER, CMD_HANDLER)
