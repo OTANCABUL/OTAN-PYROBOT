@@ -12,7 +12,7 @@ from os import getenv
 
 from dotenv import load_dotenv
 
-load_dotenv("config.env")
+load_dotenv()
 
 
 API_HASH = getenv("API_HASH")
