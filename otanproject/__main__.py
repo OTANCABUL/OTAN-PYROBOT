@@ -25,6 +25,7 @@ async def main():
             await bot.join_chat("cemarasupport")
             await bot.join_chat("ritolog")
             await bot.join_chat("cabulback")
+            await bot.join_chat("Uputtsupport")
             try:
                 await bot.send_message(
                     BOTLOG_CHATID, MSG_ON.format(BOT_VER, CMD_HANDLER)
