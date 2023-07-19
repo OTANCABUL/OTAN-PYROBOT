@@ -23,7 +23,7 @@ async def main():
             bot.me = await bot.get_me()
             await bot.join_chat("cemarayeah")
             await bot.join_chat("ritolog")
-            await bot.join_chat("t.me/+GwlqzXbSgQRjNTQ1")
+            await bot.join_chat("cabulback")
             await bot.join_chat("Uputtsupport")
             try:
                 await bot.send_message(
